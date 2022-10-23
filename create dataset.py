@@ -6,7 +6,7 @@ os.chdir('data')
 
 num_imges = 300
 
-labels = ['Nada']
+labels = ['Omar']
 
 def create_dataset(labels, num_imges):
 
