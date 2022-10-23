@@ -4,9 +4,9 @@ import os
 
 os.chdir('data')
 
-num_imges = 50
+num_imges = 300
 
-labels = ['Ahmed', 'Nada', 'Dalida', 'Mahmoud']
+labels = ['Nada']
 
 def create_dataset(labels, num_imges):
 
@@ -40,3 +40,7 @@ def create_dataset(labels, num_imges):
                 break
         cap.release()
         cv.destroyAllWindows()
+
+
+create_dataset(labels, num_imges)
+
